@@ -1,7 +1,8 @@
-package com.example.ecommerce.repository;
+package com.example.ecommerce.service;
 
 import com.example.ecommerce.dto.AddToCartRequest;
 import com.example.ecommerce.model.CartItem;
+import com.example.ecommerce.repository.CartItemRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

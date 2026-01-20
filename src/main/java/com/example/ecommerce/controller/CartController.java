@@ -2,7 +2,7 @@ package com.example.ecommerce.controller;
 
 import com.example.ecommerce.dto.AddToCartRequest;
 import com.example.ecommerce.model.CartItem;
-import com.example.ecommerce.repository.CartService;
+import com.example.ecommerce.service.CartService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
